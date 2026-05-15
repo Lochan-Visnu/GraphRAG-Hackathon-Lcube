@@ -1,0 +1,23 @@
+# --- Core Frameworks ---
+pyTigerGraph          # TigerGraph Connection
+openai                # LLM Integration (GPT-4o/o1)
+google-generativeai   # Google Gemini API Integration
+pandas                # Data Handling for CSVs
+python-dotenv         # Environment Variable Management
+
+# --- Vector RAG (Pipeline 2) ---
+langchain             # RAG Orchestration
+langchain-openai      # OpenAI LangChain wrapper
+sentence-transformers # Local embeddings for Vector RAG
+chromadb              # Lightweight Vector Database
+
+# --- Evaluation & GenAI Metrics ---
+bert-score            # Semantic similarity (Medical Accuracy)
+evaluate              # Hugging Face evaluation library
+torch                 # Backend for BERTScore calculations
+transformers          # Hugging Face Model access
+
+# --- UI & Utilities ---
+tk                    # Tkinter GUI (Standard Library)
+requests              # API Calling
+tqdm                  # Progress bars for 2M token ingestion
