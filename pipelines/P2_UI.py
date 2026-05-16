@@ -10,10 +10,10 @@ from google import genai
 from google.genai import errors
 
 # ── CONFIG (Identical to yours) ────────────────────────────────────────
-API_KEY  = "AIzaSyCcQ2GGvWHpPbX4dFOI9pahHaNCVmIIKJI"
+API_KEY  = "YOUR_API_KEY"
 MODEL_ID = "gemini-2.5-flash-lite"
-DATASET  = r"C:\Users\LIkhitha\graphrag_project\data2m.txt"
-DB_PATH  = r"C:\Users\LIkhitha\graphrag_project\chroma_db_v2"
+DATASET  = r"LOCATION"
+DB_PATH  = r"LOCATION"
 
 # ── INIT (Identical to yours) ──────────────────────────────────────────
 client     = genai.Client(api_key=API_KEY)
