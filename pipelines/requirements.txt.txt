@@ -1,9 +1,10 @@
 # --- Core Frameworks ---
 pyTigerGraph          # TigerGraph Connection
 openai                # LLM Integration (GPT-4o/o1)
-google-generativeai   # Google Gemini API Integration
+google-genai          # Google Gemini API Integration
 pandas                # Data Handling for CSVs
 python-dotenv         # Environment Variable Management
+docker 
 
 # --- Vector RAG (Pipeline 2) ---
 langchain             # RAG Orchestration
@@ -16,6 +17,7 @@ bert-score            # Semantic similarity (Medical Accuracy)
 evaluate              # Hugging Face evaluation library
 torch                 # Backend for BERTScore calculations
 transformers          # Hugging Face Model access
+tabulate
 
 # --- UI & Utilities ---
 tk                    # Tkinter GUI (Standard Library)
