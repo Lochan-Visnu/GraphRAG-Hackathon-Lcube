@@ -5,7 +5,7 @@ from google import genai
 
 # ── 1. CONFIGURATION ────────────────────────────────
 API_KEY = "YOUR_API_KEY" #Use gemini API
-CSV_FILE = "medical_data_large.csv"
+CSV_FILE = "FILE_NAME"
 MODEL_ID = "gemini-2.5-flash-lite"
 
 # PRICING (Hypothetical/Estimated for Gemini Flash Lite per 1M tokens)
