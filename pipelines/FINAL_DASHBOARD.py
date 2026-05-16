@@ -11,13 +11,13 @@ from sentence_transformers import SentenceTransformer
 from google import genai
 
 # ── 1. GLOBAL ENVIRONMENT CONFIGURATION ────────────────────────────────
-API_KEY = "AIzaSyA9ScdyZHPAt5tDeho9vuplJVYtAQMo0NA"
+API_KEY = "YOUR_API_KEY"
 MODEL_ID = "gemini-2.5-flash-lite"
 
 # Shared Medical Asset Paths
-CSV_FILE = r"C:\Users\Likhitha\graphrag_project\medical_data_fixed.csv"
-DATASET_TXT = r"C:\Users\Likhitha\graphrag_project\data2m.txt"
-DB_PATH = r"C:\Users\Likhitha\graphrag_project\chroma_db_v2"
+CSV_FILE = r"CSV_LOCATION"
+DATASET_TXT = r"DATASET_LOCATION"
+DB_PATH = r"DB_LOCATION"
 GRAPH_NAME = "MedicalGraphRAG"
 
 # Financial Free Tier Estimates per 1M Tokens
