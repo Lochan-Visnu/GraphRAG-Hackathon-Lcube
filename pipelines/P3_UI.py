@@ -11,10 +11,10 @@ from google import genai
 # ── 1. SYSTEM DEFINITIONS & FILE PATHWAYS ─────────────────────────────
 TIGERGRAPH_BASE_URL = "http://localhost:8000"
 GRAPH_NAME = "MedicalGraphRAG"
-CSV_FILE = r"C:\Users\LIkhitha\graphrag_project\medical_data_fixed.csv"
+CSV_FILE = r"LOCATION"
 
 # Gemini Production API Key & Target Endpoint
-API_KEY = "AIzaSyA9ScdyZHPAt5tDeho9vuplJVYtAQMo0NA"
+API_KEY = "YOUR_API_KEY"
 MODEL_ID = "gemini-2.5-flash-lite"
 
 # Production Commercial Scaling Metrics (Cost Per 1 Million Tokens)
