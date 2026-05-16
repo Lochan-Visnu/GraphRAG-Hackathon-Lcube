@@ -14,13 +14,13 @@ from google.genai import errors
 
 # ── CONFIG ────────────────────────────────────────
 
-API_KEY  = "AIzaSyCcQ2GGvWHpPbX4dFOI9pahHaNCVmIIKJI"
+API_KEY  = "YOUR_API_KEY"
 
 MODEL_ID = "gemini-2.5-flash-lite"
 
-DATASET  = r"C:\Users\LIkhitha\graphrag_project\data2m.txt"
+DATASET  = r"LOCATION"
 
-DB_PATH  = r"C:\Users\LIkhitha\graphrag_project\chroma_db_v2"  # fresh DB
+DB_PATH  = r"LOCATION"  # fresh DB
 
 
 
