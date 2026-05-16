@@ -7,10 +7,10 @@ from google import genai
 # ── 1. GLOBAL SYSTEM CONFIGURATION ────────────────────────────────────
 TIGERGRAPH_BASE_URL = "http://localhost:8000"
 GRAPH_NAME = "MedicalGraphRAG"
-CSV_FILE = r"C:\Users\LIkhitha\graphrag_project\medical_data_fixed.csv"
+CSV_FILE = r"LOCATION"
 
 # Gemini Cloud Credentials
-API_KEY = "AIzaSyA9ScdyZHPAt5tDeho9vuplJVYtAQMo0NA"
+API_KEY = "YOUR_API_KEY"
 MODEL_ID = "gemini-2.5-flash-lite"
 
 # Gemini 2.5 Flash-Lite Production Pricing Matrix (Per 1 Million Tokens)
