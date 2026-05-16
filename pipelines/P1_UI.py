@@ -6,7 +6,7 @@ from google import genai
 import threading
 
 # ── 1. CONFIGURATION (STRICTLY UNCHANGED) ───────────────────────────
-API_KEY = "AIzaSyCcQ2GGvWHpPbX4dFOI9pahHaNCVmIIKJI"
+API_KEY = "YOUR_API"
 CSV_FILE = "medical_data_large.csv"
 MODEL_ID = "gemini-2.5-flash-lite"
 
